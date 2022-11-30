@@ -1,16 +1,16 @@
 @font-face {
     font-family: RoadRadio;
-    src: url(/fonts/roadradio_bold.otf);
+    src: url(fonts/roadradio_bold.otf);
 }
 
 @font-face {
     font-family: Montserrat;
-    src: url(/fonts/Montserrat-Regular.ttf);
+    src: url(fonts/Montserrat-Regular.ttf);
 }
 
 @font-face {
     font-family: RoadRadio_Thin;
-    src: url(/fonts/RoadRadio\ Thin.ttf);
+    src: url(fonts/RoadRadio\ Thin.ttf);
 }
 /*
 @font-face {
@@ -20,17 +20,17 @@
 */
 @font-face {
     font-family: Montserrat_bold;
-    src: url(/fonts/Montserrat-Bold.ttf);
+    src: url(fonts/Montserrat-Bold.ttf);
 }
 
 @font-face {
     font-family: OpenSans;
-    src: url(/fonts/OpenSans-ExtraBold.ttf);
+    src: url(fonts/OpenSans-ExtraBold.ttf);
 }
 
 @font-face {
     font-family: Montserrat-ExtraLight;
-    src: url(/fonts/Montserrat-ExtraLight.ttf);
+    src: url(fonts/Montserrat-ExtraLight.ttf);
 }
 
 @font-face {
