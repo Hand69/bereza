@@ -1,0 +1,469 @@
+@font-face {
+    font-family: RoadRadio;
+    src: url(/fonts/roadradio_bold.otf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: RoadRadio_Thin;
+    src: url(/fonts/RoadRadio\ Thin.ttf);
+}
+/*
+@font-face {
+    font-family: Montserrat;
+    src: url(/fonts/Montserrat-ThinItalic.ttf);
+}
+*/
+@font-face {
+    font-family: Montserrat_bold;
+    src: url(/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(/fonts/OpenSans-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-ExtraLight;
+    src: url(/fonts/Montserrat-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Light;
+    src: url(/fonts/Montserrat-Light.ttf);
+}
+
+body{
+    margin: 0;
+}
+
+.fon{
+    margin: 0px 180px;
+    display: flex;
+    background: url(/img/fon.jpg);
+    z-index: 2;
+    width: 77%;
+}
+
+header{
+    background: url(/img/fofofofo.png) no-repeat bottom -150px right -50px /90% auto, 
+    url(/img/Rectangle\ 487\(3\).png) no-repeat center top /100%;  
+}
+
+.header_logo img{
+    width: 286px;
+    height: 235px;
+    position: relative;
+    top: -38px;
+}
+
+.header_ico{
+    margin: 50px 0px!important;
+}
+
+.header_ico img{
+    margin: 0px 5px;
+    height: 50px;
+    width: 50px;
+}
+
+.call{
+    display: flex;
+    margin-top: 35px!important;
+}
+
+
+.call input{
+    height: 81px;
+    width: 275px;
+    border-radius: 50px;
+    color: #27343F;
+    background-color: #FFFFFF;
+    border: #B3C3CF solid 1px;
+    font-size: 1.1em;
+    font-weight: 700;
+    font-family: Montserrat_bold;
+    cursor: pointer;
+}
+
+.call p{
+    margin-top: 30px;
+    margin-right: 15px;
+    color: #27343F;
+    font-weight: 700;
+    font-size: 1.2em;
+    font-style: normal;
+}
+
+.gep{
+    margin: 32px auto;
+}
+
+.adress img{
+    position: relative;
+    top: 18px;
+    right: 5px;
+}
+
+.adress span{
+    font-family: Montserrat;
+    color: #27343F;
+}
+
+.solid{
+    border-bottom: #B3C3CF solid 2px;
+    z-index: 2;
+    margin-top: -78px;
+    width: 1258px;
+    margin-left: 196px;
+    margin-right: auto;
+}
+
+.solid2 img{
+    height: 900px;
+    position: absolute;
+    top: 90px;
+    left: 300px;
+    z-index: 3;
+}
+
+.solid3 img{
+    height: 720px;
+    position: absolute;
+    top: 192.5px;
+    left: 867px;
+    z-index: 2;
+}
+
+.solid4 img{
+    position: absolute;
+    left: 771px;
+    top: 577px;
+    z-index: 4;
+}
+
+.text {
+    width: 700px;
+    height: 324px;
+    font-size: 4.2em;
+    margin-left: 195px;
+    color: #1E2932;
+    font-family: RoadRadio;
+}
+
+.text span{
+    color: #5BA4DA;
+}
+
+.text_p1{
+    margin-top: -75px!important;
+}
+
+.text_p2{
+    margin-top: -75px;
+}
+
+.text2{
+    font-size: 1.7em;
+    font-family: Montserrat;
+    color: #212D37;
+    margin-left: 195px;
+    margin-top: -50px;
+}
+
+.text2 span{
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.text_2_P{
+    margin-top: -35px;
+}
+
+.click{
+    margin-left: 195px;
+    cursor: pointer;
+}
+
+.click input{
+    height: 124px;
+    width: 506px;
+    border-radius: 50px;
+    background-color: #FDB567;
+    color: #FFFFFF;
+    font-size: 1.6em;
+    font-family: OpenSans;
+    box-shadow: 0px 3px 30px 0px rgb(253,181,103, 0.5);
+    border: none ;
+    cursor: pointer;
+}
+
+.block_last{
+    width: 1330px;
+    height: 170px;
+    background-color: #fff;
+    margin: 0px auto;
+    margin-top: 110px;
+    z-index: 40;
+    position: relative;
+    border-radius: 25px;
+    display: flex;
+    border: solid #D7E1EC 1px;
+}
+
+.block_last div{
+    margin: auto;
+}
+
+.block_last h2{
+    font-size: 1.2em;
+    font-family: RoadRadio;
+}
+
+.block_last p{
+    font-family: Montserrat-ExtraLight;
+}
+
+.block_last1{
+    margin-left: 135px!important;
+}
+
+.block_last4{
+    margin-right: 135px!important;
+}
+
+.block_last1 img{
+    position: absolute;
+    left: 72px;
+    top: 20px;
+}
+.block_last2 img{
+    position: absolute;
+    left: 396px;
+    top: 18px;
+}
+.block_last3 img{
+    position: absolute;
+    left: 682px;
+    top: 16px;
+}
+.block_last4 img{
+    position: absolute;
+    left: 980px;
+    top: 21px;
+}
+
+.sop{
+    width: 1px;
+    height: 101px;
+    background-color: #E2E2E2;
+    position: relative;
+    left: -25px;
+}
+
+
+                             /* FOOTER                         T */
+
+
+footer{
+    background-color: #DCE5E4;
+    margin-top: 100px;
+    height: 275px;
+}
+
+.lastoviyq{
+    width: auto;
+    height: 1px;
+    background-color: #B3C3CF;
+}
+
+.lastoviyqq {
+    margin: 0px auto;
+    text-align: center;
+}
+
+.footer_icon1{
+    margin-right: 5px !important;
+}
+
+footer div{
+    margin: auto;
+}
+
+.footer_p_adress{
+    margin-top: -20px;
+}
+
+footer .inn{
+    text-align: center;
+    width: 250px;
+}
+
+.footer_contac img{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.inn h2{
+    margin-top: -15px;
+    font-family: Montserrat_bold;
+    font-weight: bold;
+}
+
+.inn p{
+    font-family: Montserrat-ExtraLight;
+    
+}
+
+.footer_input input{
+    width: 275px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: #fff;
+    border: solid #B3C3CF 1px;
+    color: #27343F;
+    font-family: Montserrat_bold;
+    font-size: 1.125em;
+    font-weight: bold;
+}
+
+.footer_input h2{
+    text-align: center;
+    font-family: Montserrat_bold;
+    font-size: 1.625em;
+    font-weight: bold;
+    color: #27343F;
+}
+
+.footer1 h2{
+    color: #293743;
+    font-family: RoadRadio;
+}
+
+.footer1 p{
+    font-family: Montserrat-ExtraLight;
+}
+
+.burger_menu{
+    display: none;
+    margin-top: 30px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    background: url(/img/burger-menu-3132626-2638855.png) no-repeat center/ 20px;
+}
+
+.burger_menu2{
+    display: none;
+    height: 35%;
+    width: 70%;
+    background-color: #63a8da;
+    text-align: center;
+    padding-top: 10%;
+    position: absolute;
+    right: 0px;
+    border-radius: 0px 0px 0px 50px;
+    z-index: 2;
+    box-shadow: 0px 0px 20px 0px rgb(36, 41, 45, 0.5)
+}
+
+.burger_menu2 a{
+    margin-top: 20px;
+    color: #D7E1EC;
+    font-size: 1.5em;
+    position: relative;
+    z-index: 3;
+    text-decoration: none;
+    display: block;
+    font-family: RoadRadio;
+}
+
+.popappp{
+    width: 100%;
+    height: 100vh;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.popappp.active{
+    display: block;
+}
+
+.burger_menu2.active{
+    transition: 0.5;
+    display: block;
+}
+
+.burger_menu img{
+    width: 23px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.block_last{
+    display: flex;
+}
+
+.header_menu_tozka{
+    display: none;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+.header_menu_tozka h2{
+    font-size: 0.7em;
+}
+
+.header_menu_tozka p{
+    font-size: 0.6em;
+    margin-top: -5px;
+}
+
+.header_menu_tozka img{
+    height: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.header_menu_tozka1{
+    display: flex;
+}
+
+.header_menu_tozka2{
+    margin: 0px auto;
+}
+
+.footerr1{
+    width: auto;
+    margin: 0px 135px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footerr1 div{
+    margin: auto;
+}
+
+.footer1{
+    display: flex;
+}
+
+.footer1 img{
+    height: 40px;
+    width: 40px;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+.lastoviyqq p{
+    color: #27343F;
+    font-family: Montserrat-Light;
+    font-size: 1.250em;
+}
