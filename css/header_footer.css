@@ -35,7 +35,7 @@
 
 @font-face {
     font-family: Montserrat-Light;
-    src: url(/fonts/Montserrat-Light.ttf);
+    src: url(fonts/Montserrat-Light.ttf);
 }
 
 body{
@@ -51,7 +51,7 @@ body{
 }
 
 header{
-    background: url(/img/fofofofo.png) no-repeat bottom -150px right -50px /90% auto, 
+    background: url(img/fofofofo.png) no-repeat bottom -150px right -50px /90% auto, 
     url(/img/Rectangle\ 487\(3\).png) no-repeat center top /100%;  
 }
 
@@ -355,7 +355,7 @@ footer .inn{
     width: 24px;
     height: 24px;
     cursor: pointer;
-    background: url(/img/burger-menu-3132626-2638855.png) no-repeat center/ 20px;
+    background: url(img/burger-menu-3132626-2638855.png) no-repeat center/ 20px;
 }
 
 .burger_menu2{
